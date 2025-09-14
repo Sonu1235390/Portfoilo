@@ -5,7 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+     <style>
+        
+
+body{
+    background-color: rgb(56, 80, 17);
+    
+}
+header{
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav a{
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 25px;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+     border-color: aliceblue;
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+}
+footer{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.btn{
+    color: aliceblue;
+}
+.btn:hover{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+     </style>
 </head>
 
 <body>
